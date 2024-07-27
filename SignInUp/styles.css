@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #76d6e8;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(221, 136, 225, 0.825);
+}
+
+/* label {
+    display: block;
+    margin-bottom: 10px;
+} */
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bfeeee;
+    background-color: none;
+}
+
+input[type="submit"] {
+    background-color: #edaa10;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* input[type="submit"]:hover {
+    background-color: #3e8e41;
+} */
+
+/* #forgot-password {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #337ab7;
+} */
+
+/* #forgot-password:hover {
+    color: #23527c;
+} */
+
+/* ------------------------*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(142, 228, 241, 0.8),rgba(125, 97, 3, 0.6)),url(zm-vc-tb-1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+    padding: 50px 20px 6px;
+    text-align: center;
+} 
+.form-box h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #42da10;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 150px;
+    height: 3px;
+    border-radius: 10px;
+    background: #e2d41b;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translate(-50%);
+}
