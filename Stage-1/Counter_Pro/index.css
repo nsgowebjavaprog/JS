@@ -1,0 +1,23 @@
+#my_label{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#my_div{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(89, 89, 225);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color: rgb(217, 27, 27);
+}
