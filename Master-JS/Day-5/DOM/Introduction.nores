@@ -1,0 +1,19 @@
+/*
+
+window
+    |
+Document
+    |
+HTML 
+1.Head    2. Body   
+    |
+    1.Title - text / text node
+    2.Meta - attributes
+
+2.Body--> Div --> attribute
+          |
+          1. heading --> attribure & text node
+          2. Paragraph  --> text node      
+
+
+*/
