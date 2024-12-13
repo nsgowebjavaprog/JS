@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> NS LONI</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //   console.log("NS LONI")
+    //  }, 1000)
+
+    // For changing a text
+
+    const chnageText = function(){
+        document.querySelector('h1').
+        innerHTML = "Changed After the 2 seconds of Time's"
+    }
+    // setTimeout(chnageText, 3000)
+    //or
+    const chnageMe = setTimeout(chnageText, 3000)
+
+    // Stop changes in text
+
+    document.querySelector('#stop').
+    addEventListener('click', function(){
+        clearTimeout(chnageMe)
+    })
+
+
+</script>
+</html>
